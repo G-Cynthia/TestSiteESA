@@ -1,0 +1,407 @@
+body {
+    background-color: #e8e8e4;
+    /* font-family: 'Source code pro' , Calibri , serif ; */
+    margin: 0px;
+    padding: 0px;
+}
+
+
+ /* barre de navigation du haut  */
+.navbar{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    background-color: #083444;
+    position: fixed;
+    z-index: 1;
+    border-bottom:5px solid #335e6f;
+}
+
+nav li a img {
+    width: 15px;
+    margin-left: 10px;
+}
+
+
+nav {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #083444;
+    font-weight: bold;
+
+}
+
+nav ul{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+nav li{
+    list-style-type: none;
+    float: left;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 5px;
+    color: #fff;
+}
+nav li:hover a {
+    padding-top: 15px ;
+   
+}
+.agency p:hover span {
+    /* padding: 15px 30px 20px 30px; */
+    color: #335e6f;
+   
+}
+
+/* <!-- bloc accueil   --> */
+.container{
+    width: auto;
+    height: 565px;
+    background-image: url(fusee.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 0 8%;
+    position: relative;
+}
+
+
+.content{
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    color: #FFF;
+    padding: 50px 50px 50px 50px;
+
+}
+.content h3{
+    font-size: 12px;
+}
+.content h1{
+    font-size: 46px;
+}
+.content h6{
+    font-size: 15px;
+}
+.content h4 {
+    background-color: orange;
+    font-size: 20px;
+    width: 200px;
+}
+.content h1 h3 h4 h6{
+    color: black;
+}
+
+
+.content button{
+    background: #FFF;
+    border: 2px solid #FFF;
+    outline: none;
+    padding: 12px 25px;
+    color: black;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.content button img{
+    width: 15px;
+    margin-left: 10px;
+}
+
+
+/* bloc ESA  */
+.agency {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: auto;
+    position: relative;
+}
+.ESAVision p {
+    color: #8197a6;
+}
+.ESAVision h1{
+    font-weight: bold;
+}
+.ESAVision {
+    background: #0b1d26;
+    color: #FFF;
+    width:  252px;
+    height: 280px;
+    padding: 10px 10px  10px 50px;
+    text-align: left;
+    border-top:5px solid #335e6f;
+    border-right: 5px solid #000000;
+    padding-bottom: 70px ;
+    /* margin-left: 50px; */
+
+
+}
+.red:hover{
+    color: #bc4749;
+}
+
+.red {
+    color: #f1666a;
+}
+.green {
+    color: #76c8ae;
+}
+.blue {
+    color: #6dcff6;;
+}
+.yellow {
+    color: #ffcc4e;
+}
+.ESAPillars h1 {
+    font-weight: bold;
+}
+.ESAPillars {
+    background: #0b1d26;
+    color: #FFF;
+    width:  252px;
+    height: 280px;
+    padding: 10px 10px  10px 50px;
+    text-align: left;
+    border-top:5px solid #335e6f;
+    border-right: 5px solid #000000;
+    padding-bottom: 70px ;
+
+}
+.ESAProgrammes p {
+    color: #8197a6;
+}
+.ESAProgrammes h1 {
+    font-weight: bold;
+
+}
+.ESAProgrammes {
+    background: #0b1d26;
+    color: #FFF;
+    width:  252px;
+    height: 280px;
+    padding: 10px 10px  10px 50px;
+    text-align: left;
+    border-top:5px solid #335e6f;
+    border-right: 5px solid #000000;
+    padding-bottom: 70px ;
+
+}
+.ESAandYou p {
+    color: #8197a6;
+}
+.ESAandYou h1 {
+    font-weight: bold;
+
+
+}
+.ESAandYou{
+    background: #0b1d26;
+    color: #FFF;
+    width:  252px;
+    height: 280px;
+    padding: 10px 10px  10px 50px;
+    text-align: left;
+    border-top:5px solid #335e6f;
+    padding-bottom: 70px ;
+}
+
+/* bloc spotlight */
+.spotlight {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: auto;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    color: #0b1d26;
+}
+.spot {
+    font-size: 75px;
+    justify-content: flex-start;
+}
+
+.btn {
+    color: #335e6f;
+    font: Arial;
+    border-radius: 2px 2px 2px 2px ;
+    border: 2px solid #335e6f;
+    font-size: 16px;
+    /* font-weight: 900; */
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding:15px 15px 15px 15px ;
+    min-height: 47px;
+    line-height: inherit;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 30%);
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #335e6f;
+    color: white;
+}
+
+/* footer */
+
+footer  img {
+    width: 15px;
+    margin-left: 10px;
+}
+
+footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 100%;
+    font-weight: bold;
+    margin: 15px  15px  15px  15px ;
+  
+
+}
+
+.faq {
+    display: flex;
+    justify-content: space-between ;
+    margin: 5px 5px 5px 5px ;
+  
+}
+
+
+/* cards */
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   margin-left: 100px;
+}
+
+.card1{
+    background: #fff;
+    width: 200px;
+    height: 400px;
+    padding: 50px 40px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 30%);
+    padding-bottom: 70px ;
+    margin-left: 50px;
+    margin: 15px  15px  15px  15px ;
+}
+
+.card2{
+    background: #fff;
+    width: 200px;
+    height: 400px;
+    padding: 50px 40px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 30%);
+    padding-bottom: 70px ;
+    margin-left: 50px;
+    margin: 15px  15px  15px  15px ;
+    
+}
+
+.card3{
+    background: #fff;
+    width: 200px;
+    height: 400px;
+    padding: 50px 40px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 30%);
+    padding-bottom: 70px ;
+    margin-left: 50px;
+    margin: 15px  15px  15px  15px ;
+}
+.card4{
+    background: #fff;
+    width: 200px;
+    height: 400px;
+    padding: 50px 40px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 30%);
+    padding-bottom: 70px ;
+    margin-left: 50px;
+    margin: 15px  15px  15px  15px ;
+    
+}
+.card5{
+    background: #fff;
+    width: 200px;
+    height: 400px;
+    padding: 50px 40px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 30%);
+    padding-bottom: 70px ;
+    margin-left: 50px;
+    margin: 15px  15px  15px  15px ;
+    
+}
+.card6{
+    background: #fff;
+    width: 200px;
+    height: 400px;
+    padding: 50px 40px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 30%);
+    padding-bottom: 70px ;
+    margin-left: 50px;
+    margin: 15px  15px  15px  15px ;
+    
+}
+.card7{
+    background: #fff;
+    width: 200px;
+    height: 400px;
+    padding: 50px 40px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 30%);
+    padding-bottom: 70px ;
+    margin-left: 50px;
+    margin: 15px  15px  15px  15px ;
+    
+}
+.card8{
+    background: #fff;
+    width: 200px;
+    height: 400px;
+    padding: 50px 40px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 30%);
+    padding-bottom: 70px ;
+    margin-left: 50px;
+    margin: 15px  15px  15px  15px ;
+    
+}
+.card9{
+    background: #fff;
+    width: 200px;
+    height: 400px;
+    padding: 50px 40px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 30%);
+    padding-bottom: 70px ;
+    margin-left: 50px;
+    margin: 15px  15px  15px  15px ;
+    
+}
+
+
+
+div .card1 :hover {
+    padding-top: 15px ;
+}
+
